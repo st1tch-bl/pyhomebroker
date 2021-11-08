@@ -92,7 +92,7 @@ class HomeBrokerSession:
                 'Content-Type': 'application/x-www-form-urlencoded'
             }
 
-            url = '{}/Login/Ingresar'.format(self.broker['page'])
+            url = '{}/Login/IngresarModal'.format(self.broker['page'])
 
             payload = {
                 'IpAddress': self.__get_ipaddress(),
